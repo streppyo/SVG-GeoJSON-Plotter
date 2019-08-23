@@ -37,5 +37,4 @@ Paste the content on a text editor. Save it as an SVG file.
 ![Step3](/docs/step3.PNG)
 
 The SVG generation is now complete!
-![Step3](/docs/example.PNG)
-![Step2](/docs/step2.PNG)
+![Example](/docs/example.PNG)
