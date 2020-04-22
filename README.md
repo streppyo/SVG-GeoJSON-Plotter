@@ -1,5 +1,5 @@
 # SVG-GeoJSON-Plotter
-This two xlsx files converts a table of rectangular coordinates and IDs and plot them on an SVG/GeoJSON files respectively. This save quite a lot of time in generating highly regular rectangular layouts. Some examples of use includes floorplan for carparks and warehouses.
+This two .xlsx files converts a table of rectangular coordinates and IDs and plot them on an SVG/GeoJSON files respectively. This save quite a lot of time in generating highly regular rectangular layouts. Some examples of use includes floorplan for carparks and warehouses, where each of the objects are tagged a destinated ID.
 
 ## Instructions
 In the two Excel files, there is respectively a sheet named "list" with preset IDs and coordinates (only serve as placeholders). Paste or type your coordinates directly over
@@ -43,3 +43,6 @@ Paste the content on a text editor. Save it as an SVG file.
 The SVG generation is now complete!
 
 ![Example](/docs/example.PNG)
+
+## Usage
+Such a SVG/GeoJSON can be imported onto BI Platforms (tested on QlikSense and Tableau) via various extensions such as [SVG Reader](https://github.com/brianwmunz/svgReader-QlikSense). This has been the motivation for this tool.
